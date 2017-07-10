@@ -1,7 +1,15 @@
 #memory_board {
-
+  background: #0e0e0e;
+  height:686px;
+  width:900px;
+  background-position: 0px 0px, 10px 10px;
+  background-size: 20px 20px;
+  background-color: white;
+  background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%);*/
+  margin: 0px;
+  padding:95px;
 }
-.pic {
+.card .back {
   background-color: #456783;
 	width:71px;
 	height:71px;
@@ -9,4 +17,21 @@
 	margin:10px;
 	padding:20px;
 	font-size:64px;
+  cursor: pointer;
+}
+
+.body {
+  /*background-image: url("../img/superhero_background.jpg");
+  background-repeat:no-repeat;*/
+}
+
+#score {
+  background-color: rgba(215,44,44,0.8);
+  border-radius: 8px;
+  font-size:30px;
+  font-family: Arial;
+  width: 200px;
+  padding: 20px;
+  padding-top: 0px;
+  margin-left: 75%;
 }
